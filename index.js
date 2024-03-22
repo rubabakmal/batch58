@@ -534,14 +534,13 @@ console.log(album2);
 console.log(album3);
 // 41
 function showMagician(magicians_new) {
-    magicians.forEach(function (magician) {
+    magicians_new.forEach(function (magician) {
         console.log(magician);
     });
 }
 // Array of magician names
-var magicianNames = ['soha', 'ali', 'raza', 'john'];
-// Calling the function to show magician names
-showMagicians(magicianNames);
+var magicianNames = ['Harry Houdini', 'David Copperfield', 'Penn Jillette', 'Teller'];
+showMagician(magicianNames);
 // 42
 function show_magicians(magic) {
     for (var _i = 0, magic_1 = magic; _i < magic_1.length; _i++) {
